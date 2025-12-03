@@ -104,6 +104,7 @@ class EspacioParqueo:
         # Alternar estado del LED
     def toggle_led(self):
         self.led_encendido = not self.led_encendido
+
 # ============================================================================
 # CLASE PARQUEO CON SU CONFIGURACION Y CARACTERISTICAS 
 # ============================================================================
@@ -151,6 +152,7 @@ class Parqueo:
                 self.comunicador.actualizar_display(espacios)
             except Exception as e:
                 logging.warning(f"Parqueo {self.id} | Error al actualizar display: {e}")
+
 # ============================================================================
 # APLICACIÓN PRINCIPAL CON SUS CARACTERISTICAS Y FUNCIONES
 # ============================================================================
@@ -1033,7 +1035,7 @@ class AplicacionParqueo:
             self.gestor_comunicaciones.desactivar_todos()
         
         pygame.quit()
-        return
+        return 
 # ============================================================================
 # EJECUTAR APLICACIÓN
 # ============================================================================

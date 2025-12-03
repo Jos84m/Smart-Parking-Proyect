@@ -29,13 +29,110 @@ CYAN, CYAN_HOVER = (26, 188, 156), (22, 160, 133)
 CONFIG = {
     'tarifa_por_10seg': 1000,
     'tipo_cambio': 520.0,
-    'ip_parqueo1': '192.168.1.119',
-    'ip_parqueo2': '192.168.1.101',
+    'ip_parqueo1': '192.168.100.179',
+    'ip_parqueo2': '172.20.10.3',
     'puerto': 8080,
     'auto_refresh': True,
     'espacios_por_parqueo': 2
 }
 
+
+
 # UI
 PADDING, BORDER_RADIUS = 20, 10
 RUTA_GIF = "fondo2.gif"
+
+# ==========================================
+# Logger para Comunicaciones
+# ==========================================
+import logging
+from datetime import datetime
+
+class LoggerComunicador:
+    """Gestor centralizado de logging para comunicaciones con Picos"""
+    
+    def __init__(self, nombre="ComunicadorPico", archivo="comunicacion.log"):
+        self.nombre = nombre
+        self.archivo = archivo
+        
+        # Crear logger
+        self.logger = logging.getLogger(nombre)
+        self.logger.setLevel(logging.DEBUG)
+        
+        # Handler para archivo
+        file_handler = logging.FileHandler(archivo, encoding='utf-8')
+        file_handler.setLevel(logging.DEBUG)
+        
+        # Handler para consola
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(logging.INFO)
+        
+        # Formato
+        formatter = logging.Formatter(
+            '%(asctime)s | %(name)s | %(levelname)s | %(message)s',
+            datefmt='%Y-%m-%d %H:%M:%S'
+        )
+        file_handler.setFormatter(formatter)
+        console_handler.setFormatter(formatter)
+        
+        # Agregar handlers
+        if not self.logger.handlers:
+            self.logger.addHandler(file_handler)
+            self.logger.addHandler(console_handler)
+        
+        self.estadisticas = {
+            'conexiones_exitosas': 0,
+            'conexiones_fallidas': 0,
+            'comandos_enviados': 0,
+            'errores': []
+        }
+    
+    def info(self, mensaje: str):
+        """Log de información"""
+        self.logger.info(mensaje)
+    
+    def warning(self, mensaje: str):
+        """Log de advertencia"""
+        self.logger.warning(mensaje)
+    
+    def error(self, mensaje: str):
+        """Log de error"""
+        self.logger.error(mensaje)
+        self.estadisticas['errores'].append({
+            'timestamp': datetime.now().isoformat(),
+            'mensaje': mensaje
+        })
+    
+    def debug(self, mensaje: str):
+        """Log de debug"""
+        self.logger.debug(mensaje)
+    
+    def registrar_conexion_exitosa(self, ip: str, puerto: int):
+        """Registra conexión exitosa"""
+        self.estadisticas['conexiones_exitosas'] += 1
+        self.info(f"[OK] Conexion exitosa: {ip}:{puerto}")
+    
+    def registrar_conexion_fallida(self, ip: str, puerto: int, razon: str):
+        """Registra conexión fallida"""
+        self.estadisticas['conexiones_fallidas'] += 1
+        self.warning(f"[FAIL] Conexion fallida: {ip}:{puerto} - {razon}")
+    
+    def registrar_comando(self, accion: str, parametros: dict = None):
+        """Registra envío de comando"""
+        self.estadisticas['comandos_enviados'] += 1
+        params_str = f" | Params: {parametros}" if parametros else ""
+        self.debug(f"[CMD] Comando enviado: {accion}{params_str}")
+    
+    def obtener_estadisticas(self) -> dict:
+        """Retorna estadísticas de comunicación"""
+        return self.estadisticas.copy()
+    
+    def limpiar_estadisticas(self):
+        """Limpia las estadísticas"""
+        self.estadisticas['conexiones_exitosas'] = 0
+        self.estadisticas['conexiones_fallidas'] = 0
+        self.estadisticas['comandos_enviados'] = 0
+        self.estadisticas['errores'] = []
+
+# Instancia global del logger
+logger_com = LoggerComunicador("CEstaciona", "comunicacion.log")

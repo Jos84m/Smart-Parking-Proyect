@@ -2,3 +2,496 @@
 2025-11-26 21:24:51 | WARNING | Parqueo 2 | IP: 192.168.1.101 | Estado: NO DISPONIBLE
 2025-11-30 20:40:41 | WARNING | Parqueo 1 | IP: 192.168.1.119 | Estado: NO DISPONIBLE
 2025-11-30 20:40:41 | WARNING | Parqueo 2 | IP: 192.168.1.101 | Estado: NO DISPONIBLE
+2025-12-01 09:18:20 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001496AEDAE10>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 09:18:20 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:11:50 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-01 20:11:50,201 | INFO | Activando todos los comunicadores...
+2025-12-01 20:11:51 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002371743C250>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:11:51,210 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002371743C250>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:11:51 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:11:52 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.101: HTTPConnectionPool(host='192.168.1.101', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000023719D7CD10>, 'Connection to 192.168.1.101 timed out. (connect timeout=1)'))
+2025-12-01 20:11:52,472 | DEBUG | Error al verificar conexi�n 192.168.1.101: HTTPConnectionPool(host='192.168.1.101', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000023719D7CD10>, 'Connection to 192.168.1.101 timed out. (connect timeout=1)'))
+2025-12-01 20:11:52 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.101:8080 - No responde
+2025-12-01 20:11:52 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:11:52 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.101:8080 - No responde
+2025-12-01 20:12:13 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-01 20:12:13,027 | INFO | Desactivando todos los comunicadores...
+2025-12-01 20:12:13 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-01 20:12:13 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.101:8080
+2025-12-01 20:14:21 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-01 20:14:21,491 | INFO | Activando todos los comunicadores...
+2025-12-01 20:14:22 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000205970FE310>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:14:22,499 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000205970FE310>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:14:22 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:14:23 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002059717B3D0>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:14:23,708 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002059717B3D0>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:14:23 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:14:23 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:14:23 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:24:46 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-01 20:24:46,502 | INFO | Activando todos los comunicadores...
+2025-12-01 20:24:47 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000117A6EC0CD0>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:24:47,509 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000117A6EC0CD0>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:24:47 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:24:48 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000117A6F49B10>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:24:48,719 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000117A6F49B10>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:24:48 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:24:48 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:24:48 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:25:18 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-01 20:25:18,896 | INFO | Desactivando todos los comunicadores...
+2025-12-01 20:25:18 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-01 20:25:18 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-01 20:26:01 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-01 20:26:01,547 | INFO | Activando todos los comunicadores...
+2025-12-01 20:26:02 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000027B3480F450>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:26:02,554 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000027B3480F450>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:26:02 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:26:03 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000027B3489C490>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:26:03,764 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000027B3489C490>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:26:03 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:26:03 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:26:03 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:26:39 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-01 20:26:39,937 | INFO | Desactivando todos los comunicadores...
+2025-12-01 20:26:39 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-01 20:26:39 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-01 20:55:07 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-01 20:55:07,158 | INFO | Activando todos los comunicadores...
+2025-12-01 20:55:08 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000021C7AC6FE50>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:55:08,165 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000021C7AC6FE50>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:55:08 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:55:09 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000021C7ACFCD10>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:55:09,374 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000021C7ACFCD10>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-01 20:55:09 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:55:09 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:55:09 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-01 20:57:29 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-01 20:57:29,657 | INFO | Desactivando todos los comunicadores...
+2025-12-01 20:57:29 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-01 20:57:29 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-02 09:17:50 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 09:17:50,939 | INFO | Activando todos los comunicadores...
+2025-12-02 09:17:51 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001AA4E6CA990>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:17:51,973 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001AA4E6CA990>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:17:51 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:17:53 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001AA4E746FD0>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:17:53,257 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001AA4E746FD0>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:17:53 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:17:53 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:17:53 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:18:34 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 09:18:34,467 | INFO | Desactivando todos los comunicadores...
+2025-12-02 09:18:34 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-02 09:18:34 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-02 09:19:34 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 09:19:34,866 | INFO | Activando todos los comunicadores...
+2025-12-02 09:19:35 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001DB4971A450>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:19:35,885 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001DB4971A450>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:19:35 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:19:37 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001DB49796B10>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:19:37,105 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001DB49796B10>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:19:37 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:19:37 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:19:37 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:20:23 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 09:20:23,348 | INFO | Desactivando todos los comunicadores...
+2025-12-02 09:20:23 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-02 09:20:23 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-02 09:47:21 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 09:47:21,872 | INFO | Activando todos los comunicadores...
+2025-12-02 09:47:22 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000017458C1B850>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:47:22,886 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000017458C1B850>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:47:22 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:47:23 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.XXX: HTTPConnectionPool(host='192.168.1.xxx', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000017458CAC990>: Failed to resolve '192.168.1.xxx' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 09:47:23,201 | DEBUG | Error al verificar conexi�n 192.168.1.XXX: HTTPConnectionPool(host='192.168.1.xxx', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000017458CAC990>: Failed to resolve '192.168.1.xxx' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 09:47:23 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.XXX:8080 - No responde
+2025-12-02 09:47:23 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:47:23 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.XXX:8080 - No responde
+2025-12-02 09:49:57 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 09:49:57,116 | INFO | Activando todos los comunicadores...
+2025-12-02 09:49:58 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000178BE53B250>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:49:58,132 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000178BE53B250>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 09:49:58 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:49:58 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.XXX: HTTPConnectionPool(host='192.168.1.xxx', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000178C0F3CDD0>: Failed to resolve '192.168.1.xxx' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 09:49:58,367 | DEBUG | Error al verificar conexi�n 192.168.1.XXX: HTTPConnectionPool(host='192.168.1.xxx', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000178C0F3CDD0>: Failed to resolve '192.168.1.xxx' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 09:49:58 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.XXX:8080 - No responde
+2025-12-02 09:49:58 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 09:49:58 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.XXX:8080 - No responde
+2025-12-02 09:50:16 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 09:50:16,249 | INFO | Desactivando todos los comunicadores...
+2025-12-02 09:50:16 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-02 09:50:16 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.XXX:8080
+2025-12-02 14:30:11 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 14:30:11,123 | INFO | Activando todos los comunicadores...
+2025-12-02 14:30:12 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000144D44CB650>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 14:30:12,157 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000144D44CB650>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 14:30:12 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 14:30:12 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.XXX: HTTPConnectionPool(host='192.168.1.xxx', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000144D455C710>: Failed to resolve '192.168.1.xxx' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 14:30:12,565 | DEBUG | Error al verificar conexi�n 192.168.1.XXX: HTTPConnectionPool(host='192.168.1.xxx', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000144D455C710>: Failed to resolve '192.168.1.xxx' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 14:30:12 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.XXX:8080 - No responde
+2025-12-02 14:30:12 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 14:30:12 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.XXX:8080 - No responde
+2025-12-02 14:32:09 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 14:32:09,692 | INFO | Desactivando todos los comunicadores...
+2025-12-02 14:32:09 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-02 14:32:09 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.XXX:8080
+2025-12-02 14:45:49 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 14:45:49,314 | INFO | Activando todos los comunicadores...
+2025-12-02 14:45:50 | CEstaciona | DEBUG | Error al verificar conexión 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000016CBD6DBD50>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 14:45:50,333 | DEBUG | Error al verificar conexi�n 192.168.1.119: HTTPConnectionPool(host='192.168.1.119', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000016CBD6DBD50>, 'Connection to 192.168.1.119 timed out. (connect timeout=1)'))
+2025-12-02 14:45:50 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 14:45:51 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000016CBD76CC10>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 14:45:51,551 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000016CBD76CC10>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 14:45:51 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 14:45:51 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.1.119:8080 - No responde
+2025-12-02 14:45:51 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 14:46:21 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 14:46:21,601 | INFO | Desactivando todos los comunicadores...
+2025-12-02 14:46:21 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.1.119:8080
+2025-12-02 14:46:21 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 14:49:29 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 14:49:29,347 | INFO | Activando todos los comunicadores...
+2025-12-02 14:49:29 | CEstaciona | INFO | ✓ Conexión exitosa: 192.168.100.179:8080
+2025-12-02 14:49:30 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019282167FD0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 14:49:30,663 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019282167FD0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 14:49:30 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 14:49:30 | CEstaciona | INFO | ✓ Conexión exitosa: 192.168.100.179:8080
+2025-12-02 14:49:30 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 14:49:30 | CEstaciona | DEBUG | → Comando enviado: set_led | Params: {'index': 0, 'valor': 0}
+2025-12-02 14:49:32 | CEstaciona | WARNING | Timeout comunicándose con 192.168.100.179 (acción: set_led)
+2025-12-02 14:49:32,997 | WARNING | Timeout comunic�ndose con 192.168.100.179 (acci�n: set_led)
+2025-12-02 14:49:32 | CEstaciona | DEBUG | → Comando enviado: set_led | Params: {'index': 1, 'valor': 1}
+2025-12-02 14:49:35 | CEstaciona | WARNING | Timeout comunicándose con 192.168.100.179 (acción: set_led)
+2025-12-02 14:49:35,111 | WARNING | Timeout comunic�ndose con 192.168.100.179 (acci�n: set_led)
+2025-12-02 14:49:37 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 14:49:37,177 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 14:49:39 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 14:49:39,231 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 14:49:41 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 14:49:41,345 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 14:49:43 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019280005BD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 14:49:43,387 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000019280005BD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 14:50:01 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 14:50:01,821 | INFO | Activando todos los comunicadores...
+2025-12-02 14:50:02 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020C4E10B490>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 14:50:02,837 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020C4E10B490>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 14:50:02 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 14:50:04 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020C4E19C610>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 14:50:04,056 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020C4E19C610>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 14:50:04 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 14:50:04 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 14:50:04 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 14:51:40 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 14:51:40,896 | INFO | Desactivando todos los comunicadores...
+2025-12-02 14:51:40 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 14:51:40 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 15:10:18 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 15:10:18,893 | INFO | Activando todos los comunicadores...
+2025-12-02 15:10:19 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020DC9B7BE10>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:10:19,903 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020DC9B7BE10>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:10:19 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:10:21 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020DCE4B7210>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:10:21,119 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000020DCE4B7210>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:10:21 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:10:21 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:10:21 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:11:13 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:11:13,961 | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:11:13 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 15:11:13 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 15:23:47 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 15:23:47,858 | INFO | Activando todos los comunicadores...
+2025-12-02 15:23:48 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A60422DDD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:23:48,866 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A60422DDD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:23:48 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:23:50 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A606B0C7D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:23:50,076 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A606B0C7D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:23:50 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:23:50 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:23:50 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:25:26 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:25:26,899 | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:25:26 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 15:25:26 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 15:25:49 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 15:25:49,614 | INFO | Activando todos los comunicadores...
+2025-12-02 15:25:50 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002213E2E42D0>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:25:50,622 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002213E2E42D0>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:25:50 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:25:51 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002213E36D1D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:25:51,832 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002213E36D1D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:25:51 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:25:52 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:25:52 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:25:59 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:25:59,804 | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:25:59 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 15:25:59 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 15:46:21 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 15:46:21,830 | INFO | Activando todos los comunicadores...
+2025-12-02 15:46:22 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A9E897BDD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:46:22,839 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A9E897BDD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:46:22 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:46:24 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A9E8A0CD90>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:46:24,048 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A9E8A0CD90>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:46:24 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:46:24 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:46:24 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:46:42 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:46:42,952 | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:46:42 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 15:46:42 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 15:47:06 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 15:47:06,610 | INFO | Activando todos los comunicadores...
+2025-12-02 15:47:07 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001BBB4A68050>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:47:07,619 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001BBB4A68050>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:47:07 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:47:08 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001BBB949C1D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:47:08,829 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001BBB949C1D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:47:08 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:47:09 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:47:09 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:47:23 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:47:23,710 | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:47:23 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 15:47:23 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 15:49:21 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 15:49:21,347 | INFO | Activando todos los comunicadores...
+2025-12-02 15:49:22 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002024894BDD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:49:22,355 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002024894BDD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:49:22 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:49:23 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000202489DCCD0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:49:23,565 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000202489DCCD0>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:49:23 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:49:23 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:49:23 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:49:41 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:49:41,449 | INFO | Desactivando todos los comunicadores...
+2025-12-02 15:49:41 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 15:49:41 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 15:57:52 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 15:57:52,803 | INFO | Activando todos los comunicadores...
+2025-12-02 15:57:53 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002D6202DBD90>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:57:53,811 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002D6202DBD90>, 'Connection to 192.168.100.179 timed out. (connect timeout=1)'))
+2025-12-02 15:57:53 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:57:55 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002D62036CE10>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:57:55,021 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002D62036CE10>, 'Connection to 172.20.10.3 timed out. (connect timeout=1)'))
+2025-12-02 15:57:55 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 15:57:55 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 15:57:55 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:06:15 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:06:15,699 | INFO | Activando todos los comunicadores...
+2025-12-02 16:06:17 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000254EAACF990>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:06:17,706 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000254EAACF990>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:06:17 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:06:19 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000254EAB5CA50>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:06:19,916 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000254EAB5CA50>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:06:19 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:06:20 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:06:20 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:06:30 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:06:30,427 | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:06:30 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 16:06:30 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 16:06:35 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:06:35,506 | INFO | Activando todos los comunicadores...
+2025-12-02 16:06:37 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000014CEC67F610>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:06:37,514 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000014CEC67F610>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:06:37 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:06:39 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000014CEC70C6D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:06:39,724 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000014CEC70C6D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:06:39 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:06:39 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:06:39 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:07:13 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:07:13,503 | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:07:13 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 16:07:13 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 16:08:24 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:08:24,705 | INFO | Activando todos los comunicadores...
+2025-12-02 16:08:26 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000023AC383F7D0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:08:26,714 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000023AC383F7D0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:08:26 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:08:28 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000023AC38CC110>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:08:28,923 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000023AC38CC110>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:08:28 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:08:29 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:08:29 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:09:03 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:09:03,176 | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:09:03 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 16:09:03 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 16:11:11 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:11:11,844 | INFO | Activando todos los comunicadores...
+2025-12-02 16:11:13 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002333D2BD850>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:11:13,851 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002333D2BD850>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:11:13 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:11:16 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002333FC8BE10>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:11:16,060 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002333FC8BE10>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:11:16 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:11:16 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:11:16 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:11:35 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:11:35,358 | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:11:35 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 16:11:35 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 16:12:23 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:12:23,779 | INFO | Activando todos los comunicadores...
+2025-12-02 16:12:25 | CEstaciona | INFO | ✓ Conexión exitosa: 192.168.100.179:8080
+2025-12-02 16:12:27 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD622D6B90>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:12:27,703 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD622D6B90>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:12:27 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:12:27 | CEstaciona | INFO | ✓ Conexión exitosa: 192.168.100.179:8080
+2025-12-02 16:12:27 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:12:27 | CEstaciona | DEBUG | → Comando enviado: set_led | Params: {'index': 0, 'valor': 0}
+2025-12-02 16:12:29 | CEstaciona | WARNING | Timeout en 192.168.100.179 (acción: set_led)
+2025-12-02 16:12:29,950 | WARNING | Timeout en 192.168.100.179 (acci�n: set_led)
+2025-12-02 16:12:29 | CEstaciona | DEBUG | → Comando enviado: set_led | Params: {'index': 1, 'valor': 1}
+2025-12-02 16:12:31 | CEstaciona | WARNING | Timeout en 192.168.100.179 (acción: set_led)
+2025-12-02 16:12:31,992 | WARNING | Timeout en 192.168.100.179 (acci�n: set_led)
+2025-12-02 16:12:34 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 16:12:34,026 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 16:12:36 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 16:12:36,075 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 16:12:38 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 16:12:38,132 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Read timed out. (read timeout=2)
+2025-12-02 16:12:40 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD62304850>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:12:40,157 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD62304850>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:12:42 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD622FE810>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:12:42,181 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD622FE810>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:12:44 | CEstaciona | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD622FD790>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:12:44,202 | DEBUG | Error al obtener estado de 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD622FD790>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:13:21 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:13:21,741 | INFO | Activando todos los comunicadores...
+2025-12-02 16:13:23 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000027BC869DC90>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:13:23,748 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000027BC869DC90>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:13:23 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:13:34 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:13:34,638 | INFO | Activando todos los comunicadores...
+2025-12-02 16:13:36 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001355F48D190>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:13:36,645 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001355F48D190>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:13:36 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:13:38 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000013561DDBBD0>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:13:38,855 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000013561DDBBD0>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:13:38 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:13:39 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:13:39 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:14:25 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:14:25,124 | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:14:25 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 16:14:25 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 16:18:38 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:18:38,927 | INFO | Activando todos los comunicadores...
+2025-12-02 16:18:40 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F9E1E0BD50>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:18:40,936 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F9E1E0BD50>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 16:18:40 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:18:43 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F9E1E9C550>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:18:43,146 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F9E1E9C550>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:18:43 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:18:43 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 16:18:43 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:18:53 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:18:53,232 | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:18:53 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 16:18:53 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 16:20:42 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:20:42,646 | INFO | Activando todos los comunicadores...
+2025-12-02 16:20:42 | CEstaciona | DEBUG | Error al verificar conexión  192.168.100.179: HTTPConnectionPool(host='%20192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001C97A70BED0>: Failed to resolve '%20192.168.100.179' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 16:20:42,655 | DEBUG | Error al verificar conexi�n  192.168.100.179: HTTPConnectionPool(host='%20192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001C97A70BED0>: Failed to resolve '%20192.168.100.179' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 16:20:42 | CEstaciona | WARNING | ✗ Conexión fallida:  192.168.100.179:8080 - No responde
+2025-12-02 16:20:44 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C97A79C6D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:20:44,865 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C97A79C6D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:20:44 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:20:45 | CEstaciona | WARNING | ✗ Conexión fallida:  192.168.100.179:8080 - No responde
+2025-12-02 16:20:45 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:21:15 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:21:15,883 | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:21:15 | CEstaciona | INFO | ○ Comunicador desactivado:  192.168.100.179:8080
+2025-12-02 16:21:15 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 16:23:22 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 16:23:22,145 | INFO | Activando todos los comunicadores...
+2025-12-02 16:23:22 | CEstaciona | DEBUG | Error al verificar conexión  192.168.100.179: HTTPConnectionPool(host='%20192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000017BB65D4210>: Failed to resolve '%20192.168.100.179' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 16:23:22,154 | DEBUG | Error al verificar conexi�n  192.168.100.179: HTTPConnectionPool(host='%20192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000017BB65D4210>: Failed to resolve '%20192.168.100.179' ([Errno 11001] getaddrinfo failed)"))
+2025-12-02 16:23:22 | CEstaciona | WARNING | ✗ Conexión fallida:  192.168.100.179:8080 - No responde
+2025-12-02 16:23:24 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000017BB665CC10>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:23:24,365 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000017BB665CC10>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 16:23:24 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:23:24 | CEstaciona | WARNING | ✗ Conexión fallida:  192.168.100.179:8080 - No responde
+2025-12-02 16:23:24 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 16:23:36 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:23:36,120 | INFO | Desactivando todos los comunicadores...
+2025-12-02 16:23:36 | CEstaciona | INFO | ○ Comunicador desactivado:  192.168.100.179:8080
+2025-12-02 16:23:36 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 16:28:05 | CEstaciona | INFO | Test: Mensaje de información
+2025-12-02 16:28:05 | CEstaciona | WARNING | Test: Mensaje de advertencia
+2025-12-02 16:28:05 | CEstaciona | INFO | ✓ Conexión exitosa: 192.168.1.100:8080
+2025-12-02 16:28:05 | CEstaciona | DEBUG | → Comando enviado: test_comando | Params: {'param1': 'valor1'}
+2025-12-02 17:07:14 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 17:07:14,844 | INFO | Activando todos los comunicadores...
+2025-12-02 17:07:16 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002BEE2AB4090>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 17:07:16,852 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002BEE2AB4090>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 17:07:16 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 17:07:19 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002BEE2B3CA50>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 17:07:19,061 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002BEE2B3CA50>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 17:07:19 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 17:07:19 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 17:07:19 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 17:07:40 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 17:07:40,750 | INFO | Desactivando todos los comunicadores...
+2025-12-02 17:07:40 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 17:07:40 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 19:22:29 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 19:22:29,357 | INFO | Activando todos los comunicadores...
+2025-12-02 19:22:31 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000021E1077BDD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 19:22:31,392 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000021E1077BDD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 19:22:31 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 19:22:33 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000021E1080C2D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 19:22:33,627 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000021E1080C2D0>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 19:22:33 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 19:22:33 | CEstaciona | WARNING | ✗ Conexión fallida: 192.168.100.179:8080 - No responde
+2025-12-02 19:22:33 | CEstaciona | WARNING | ✗ Conexión fallida: 172.20.10.3:8080 - No responde
+2025-12-02 19:22:59 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 19:22:59,467 | INFO | Desactivando todos los comunicadores...
+2025-12-02 19:22:59 | CEstaciona | INFO | ○ Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 19:22:59 | CEstaciona | INFO | ○ Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 19:29:35 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 19:29:35,017 | INFO | Activando todos los comunicadores...
+2025-12-02 19:29:37 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F6AA33FCD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 19:29:37,030 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F6AA33FCD0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 19:29:37 | CEstaciona | WARNING | [FAIL] Conexion fallida: 192.168.100.179:8080 - No responde
+2025-12-02 19:29:37,031 | WARNING | [FAIL] Conexion fallida: 192.168.100.179:8080 - No responde
+2025-12-02 19:29:39 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F6AA347D10>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 19:29:39,236 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F6AA347D10>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 19:29:39 | CEstaciona | WARNING | [FAIL] Conexion fallida: 172.20.10.3:8080 - No responde
+2025-12-02 19:29:39,237 | WARNING | [FAIL] Conexion fallida: 172.20.10.3:8080 - No responde
+2025-12-02 19:29:39 | CEstaciona | WARNING | [FAIL] Conexion fallida: 192.168.100.179:8080 - No responde
+2025-12-02 19:29:39,439 | WARNING | [FAIL] Conexion fallida: 192.168.100.179:8080 - No responde
+2025-12-02 19:29:39 | CEstaciona | WARNING | [FAIL] Conexion fallida: 172.20.10.3:8080 - No responde
+2025-12-02 19:29:39,440 | WARNING | [FAIL] Conexion fallida: 172.20.10.3:8080 - No responde
+2025-12-02 19:29:58 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 19:29:58,760 | INFO | Desactivando todos los comunicadores...
+2025-12-02 19:29:58 | CEstaciona | INFO | [STOP] Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 19:29:58,761 | INFO | [STOP] Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 19:29:58 | CEstaciona | INFO | [STOP] Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 19:29:58,762 | INFO | [STOP] Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 20:45:22 | CEstaciona | INFO | Activando todos los comunicadores...
+2025-12-02 20:45:22,235 | INFO | Activando todos los comunicadores...
+2025-12-02 20:45:24 | CEstaciona | DEBUG | Error al verificar conexión 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000206E45FF4D0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 20:45:24,250 | DEBUG | Error al verificar conexi�n 192.168.100.179: HTTPConnectionPool(host='192.168.100.179', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000206E45FF4D0>, 'Connection to 192.168.100.179 timed out. (connect timeout=2)'))
+2025-12-02 20:45:24 | CEstaciona | WARNING | [FAIL] Conexion fallida: 192.168.100.179:8080 - No responde
+2025-12-02 20:45:24,250 | WARNING | [FAIL] Conexion fallida: 192.168.100.179:8080 - No responde
+2025-12-02 20:45:26 | CEstaciona | DEBUG | Error al verificar conexión 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000206E460F550>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 20:45:26,455 | DEBUG | Error al verificar conexi�n 172.20.10.3: HTTPConnectionPool(host='172.20.10.3', port=8080): Max retries exceeded with url: /estado (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000206E460F550>, 'Connection to 172.20.10.3 timed out. (connect timeout=2)'))
+2025-12-02 20:45:26 | CEstaciona | WARNING | [FAIL] Conexion fallida: 172.20.10.3:8080 - No responde
+2025-12-02 20:45:26,456 | WARNING | [FAIL] Conexion fallida: 172.20.10.3:8080 - No responde
+2025-12-02 20:45:26 | CEstaciona | WARNING | [FAIL] Conexion fallida: 192.168.100.179:8080 - No responde
+2025-12-02 20:45:26,659 | WARNING | [FAIL] Conexion fallida: 192.168.100.179:8080 - No responde
+2025-12-02 20:45:26 | CEstaciona | WARNING | [FAIL] Conexion fallida: 172.20.10.3:8080 - No responde
+2025-12-02 20:45:26,660 | WARNING | [FAIL] Conexion fallida: 172.20.10.3:8080 - No responde
+2025-12-02 20:47:25 | CEstaciona | INFO | Desactivando todos los comunicadores...
+2025-12-02 20:47:25,468 | INFO | Desactivando todos los comunicadores...
+2025-12-02 20:47:25 | CEstaciona | INFO | [STOP] Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 20:47:25,469 | INFO | [STOP] Comunicador desactivado: 192.168.100.179:8080
+2025-12-02 20:47:25 | CEstaciona | INFO | [STOP] Comunicador desactivado: 172.20.10.3:8080
+2025-12-02 20:47:25,470 | INFO | [STOP] Comunicador desactivado: 172.20.10.3:8080
